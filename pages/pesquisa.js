@@ -39,7 +39,7 @@ const Pesquisa = () => {
                 Por isso, estamos sempre abertos a ouvir a sua opinião.
             </p>
             <p className='italic text-center p-2'>*Campos obrigatórios!</p>
-            {!sucess && <div className='w-1/5 mx-auto'>
+            {!sucess && <div className='w-1/5 mx-auto' style="width:300px!important;">
                 <label className='font-bold'>Seu nome:*</label>
                 <input type='text' className='p-4 block shadow bg-blue-100 my-2 rounded' placeholder='Nome' onChange={onChange} name='Nome' value={form.Nome} ref={register({ required: true })} />
                 <label className='font-bold'>E-mail:*</label>
