@@ -50,7 +50,7 @@ const Pesquisa = () => {
                 <div className='flex'>
                 { notas.map(nota => {
                 return (
-                    <label className='block w-1/5 text-center py-6'>
+                    <label className='block w-2/5 text-center py-6'>
                         {nota}<br />
                         <input type='radio' name='Nota' value={nota} onChange={onChange} />
                     </label> 
